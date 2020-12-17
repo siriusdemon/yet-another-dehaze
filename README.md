@@ -123,9 +123,9 @@ if __name__ == '__main__':
 
 ### 效果
 
-依次为： 原图 暗通道 透射图 效果图
+依次为： 原图 效果图 暗通道 透射图
 
 ![original](./image/haze6.jpg) 
+![final](./image/final.png)
 ![dark](./image/dark.png) 
 ![tx](./image/tx.png) 
-![final](./image/final.png)

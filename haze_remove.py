@@ -64,7 +64,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         img = sys.argv[1]
     else:
-        img = 'haze2.jpg'
+        img = 'image/haze2.jpg'
     im = cv2.imread(img)
     patch_size = 15
     dark = dark_channel(im, patch_size)
